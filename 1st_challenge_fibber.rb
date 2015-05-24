@@ -6,7 +6,7 @@
 quantity = 15
 
 sequence = [0,1]
-until sequence.count == 15
+until sequence.count == quantity
   next_number = sequence.last(2).inject(:+)
   sequence << next_number
 end
