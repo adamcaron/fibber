@@ -10,4 +10,6 @@ until sequence.count == 15
   next_number = sequence.last(2).inject(:+)
   sequence << next_number
 end
-puts sequence
+print sequence[1..5].join(' ') + "\n"
+print sequence[6..10].join(' ') + "\n"
+print sequence[11..15].join(' ')
