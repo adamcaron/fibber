@@ -10,6 +10,6 @@ until sequence.count == quantity
   next_number = sequence.last(2).inject(:+)
   sequence << next_number
 end
-print sequence[1..5].join(' ') + "\n"
-print sequence[6..10].join(' ') + "\n"
-print sequence[11..15].join(' ')
+print sequence[0..4].join(' ') + "\n"
+print sequence[5..9].join(' ') + "\n"
+print sequence[10..14].join(' ')
