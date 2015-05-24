@@ -4,6 +4,8 @@
 # each element of the sequence is padded to four places.
 # But if the last element is four digits, each element is padded to five places.
 
+# Destructive method: manipulates the array using '.shift' until the array is empty
+
 quantity = 150
 sequence = [0, 1]
 
@@ -15,7 +17,6 @@ end
 until sequence.empty?
   5.times do
     padding = sequence[-1].to_s.length + 1
-    # Destructive method: manipulates the array using '.shift' until the array is empty
     print sequence.shift.to_s.rjust(padding, ' ')
   end
   puts "\n"
