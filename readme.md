@@ -2,7 +2,7 @@
 
 The Fibbonacci sequence is a simple numeric sequence that comes up frequently in Computer Science and design tasks. Let's write a generator that can tell us an arbitrary quantity of numbers in the sequence.
 
-# Theory
+## Theory
 
 The sequence begins with the numbers 0 and 1. From there, each element is the sum of the previous two elements.
 
@@ -19,7 +19,7 @@ Start with 0 and 1
 
 So the sequence starts 0, 1, 1, 2, 3, 5, 8, 13, 21.
 
-# Template
+## Template
 
 ```
 quantity = 15
@@ -27,7 +27,7 @@ quantity = 15
 # your code here
 ```
 
-# Challenge 1: Jagged Output
+## Challenge 1: Jagged Output
 
 Output should come in rows of five elements. Running the program with quantity set to fifteen would output the following:
 
@@ -37,7 +37,7 @@ Output should come in rows of five elements. Running the program with quantity s
 55 89 144 233 377
 ```
 
-# Challenge 2: Better Output
+## Challenge 2: Better Output
 
 Our columns are kinda ugly. Let's pad each number into a four-character string so we get output like this:
 
@@ -47,7 +47,7 @@ Our columns are kinda ugly. Let's pad each number into a four-character string s
   55   89  144  233  377
 ```
 
-# Challenge 3: Fancy Output
+## Challenge 3: Fancy Output
 
 That works great until we want to output four-digit numbers in the sequence -- they'd start bumping into each other.
 
